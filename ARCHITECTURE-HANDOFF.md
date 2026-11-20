@@ -177,7 +177,7 @@ Use `dotnet user-secrets` locally and App Service Configuration in Azure.
 
 ## Azure Deployment Notes
 
-- App Service runs on **Linux** — zip deploy must use **forward slashes** in file paths
+- If app Service runs on **Linux** — zip deploy must use **forward slashes** in file paths
 - `Compress-Archive` (PowerShell) creates backslashes → static files fail silently on Linux
 - Fix: Create zip programmatically with `System.IO.Compression` and replace `\` with `/`
 - Visual Studio Publish (Zip Deploy) may have the same issue — verify static files after deploy
