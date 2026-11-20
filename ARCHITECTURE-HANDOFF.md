@@ -220,5 +220,5 @@ I need to implement a multi-tenant dynamic forms and case management system. Key
 
 6. SECURITY: Suomi.fi authentication integration. API keys and connection strings in User Secrets (dev) / App Service Configuration (Azure). Anti-forgery tokens on all POST forms. No direct blob storage URLs exposed.
 
-The reference implementation is at: https://github.com/Fujitsu-JohannaE/CityPortal
+The reference implementation is at: https://github.com/JHE81/CityPortal
 ```
